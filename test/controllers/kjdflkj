@@ -1,0 +1,74 @@
+= ..rroooott
+
+(from ruby core)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  SSeerrvveerr
+------------------------------------------------------------------------------
+  root(req, res)
+
+------------------------------------------------------------------------------
+
+
+(from ruby core)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  DDooccuummeenntt
+------------------------------------------------------------------------------
+  root()
+
+------------------------------------------------------------------------------
+
+Returns the root node.  A Document may only have one root node:
+http://yaml.org/spec/1.1/#id898031
+
+
+(from ruby core)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  PPssyycchh::::TTrreeeeBBuuiillddeerr
+------------------------------------------------------------------------------
+
+Returns the root node for the built tree
+
+
+(from ruby core)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  RRDDoocc::::OOppttiioonnss
+------------------------------------------------------------------------------
+
+Root of the source documentation will be generated for.  Set this when
+building documentation outside the source directory.  Defaults to the current
+directory.
+
+
+(from ruby core)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  SSeerrvvlleett
+------------------------------------------------------------------------------
+  root(req, res)
+
+------------------------------------------------------------------------------
+
+Generates the root page on res.  req is ignored.
+
+
+(from ruby core)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  DDooccuummeenntt
+------------------------------------------------------------------------------
+  root()
+
+------------------------------------------------------------------------------
+
+@return the root Element of the document, or nil if this document has no
+children.
+
+
+(from ruby core)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  EElleemmeenntt
+------------------------------------------------------------------------------
+  root()
+
+------------------------------------------------------------------------------
+
+
+(from ruby core)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  NNooddee
+------------------------------------------------------------------------------
+  root()
+
+------------------------------------------------------------------------------
+
+
